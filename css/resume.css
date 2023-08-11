@@ -1,13 +1,3 @@
-@media (max-width: 767px) {
-    .sidebar {
-        position: static;
-        width: inherit;
-    }
-
-    .content {
-        padding: 30px;
-    }
-}
 
 html {
     font-family: Clarity City,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Roboto,Ubuntu,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
@@ -141,4 +131,14 @@ ul.experiences .employer {
 
 .accomplishment {
     padding: .25rem 0 0 0;
+}
+@media (max-width: 767px) {
+    .sidebar {
+        position: static;
+        width: inherit;
+    }
+
+    .content {
+        padding: 30px;
+    }
 }
