@@ -132,7 +132,12 @@ ul.experiences .employer {
     padding: .25rem 0 0 0;
 }
 
-@media (max-width: 767px) {
+/* iPhone 6SE */
+@media (max-width: 414px) {
+    body {
+        margin: 5px;
+    }
+
     .sidebar {
         position: static;
         width: inherit;
@@ -140,5 +145,42 @@ ul.experiences .employer {
 
     .content {
         padding: 30px;
+    }
+
+    .experiences .header span {
+        display: block;
+        float: none;
+    }
+
+    .accomplishments {
+        padding: 0 0 0 20px;
+    }
+}
+
+/* iPad Air */
+@media (min-width: 414px) and (max-width: 820px) {
+    body {
+        margin: 5px;
+    }
+
+    .sidebar {
+        position: static;
+        width: inherit;
+    }
+
+    .sidebar .details-wrapper {
+        display: flex;
+    }
+
+    .sidebar .details {
+        flex: 1;
+    }
+
+    .content {
+        padding: 30px;
+    }
+
+    .accomplishments {
+        padding: 0 0 0 20px;
     }
 }
